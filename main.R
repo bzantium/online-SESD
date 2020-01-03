@@ -50,5 +50,5 @@ if (opt$visualize) {
   plot.ts(data$value, main=sprintf("Detected Anomalies on dataset A3 TS-%s", opt$data))
   points(anoms, data$value[anoms], col="red")
   prompt  <- "Click button to close plots"
+  capture <- tk_messageBox(message = prompt)
 }
-capture <- tk_messageBox(message = prompt)
