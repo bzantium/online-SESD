@@ -1,4 +1,5 @@
-library(optparse);library(caret);library(tcltk);
+library(optparse);library(tcltk);
+suppressMessages(library(caret));
 
 setwd('C:/Users/RYU/Documents/R/test-SESD')
 source("SESD.R")
