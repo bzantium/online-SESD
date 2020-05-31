@@ -3,5 +3,5 @@
 ## _Train and test_
 - You can simply run code by
 ```
-$ python main.py --data 67 --visualize
+$ Rscript main.R --data 67 --visualize
 ```
